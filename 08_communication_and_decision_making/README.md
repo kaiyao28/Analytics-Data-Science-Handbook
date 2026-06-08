@@ -25,9 +25,9 @@ This section covers writing, framing and presenting analytical work to stakehold
 |----------------|-------|
 | Write an experiment readout right now | [../00_quick_reference/communication_templates.md](../00_quick_reference/communication_templates.md) |
 | See a worked good vs weak write-up | [Practical example below](#practical-example) |
-| Write a decision memo | `decision_memo_template.md` |
-| Learn how to write a clear data insight | `insight_writing.md` |
-| Handle stakeholder pushback | `stakeholder_questions.md` |
+| Write a decision memo | [decision_memo_template.md](decision_memo_template.md) |
+| Handle stakeholder pushback | [stakeholder_questions.md](stakeholder_questions.md) |
+| Write an experiment readout | [experiment_readout_template.md](experiment_readout_template.md) |
 
 ---
 
@@ -106,10 +106,15 @@ The best answers separate fact from interpretation, quantify uncertainty and giv
 
 | File | Topic |
 |------|-------|
-| `insight_writing.md` | How to write data insights: structure, examples, common mistakes |
-| `experiment_readout_template.md` | Structured template for communicating experiment results |
-| `decision_memo_template.md` | One-page format for framing a product decision |
-| `stakeholder_questions.md` | How to handle difficult stakeholder questions and pushback |
+| [experiment_readout_template.md](experiment_readout_template.md) | Fill-in template for communicating experiment results, with worked example |
+| [decision_memo_template.md](decision_memo_template.md) | One-page format for framing a product decision |
+| [stakeholder_questions.md](stakeholder_questions.md) | How to handle the most common stakeholder pushback scenarios |
+
+### Planned additions
+
+| File | Topic |
+|------|-------|
+| `insight_writing.md` | How to write a clear data insight: structure, examples, common mistakes |
 | `executive_summary_examples.md` | Worked examples of clear, concise executive summaries |
 
 ---

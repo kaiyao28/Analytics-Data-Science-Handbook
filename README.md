@@ -4,21 +4,36 @@ A practical handbook for learning analytics and product data science: metrics, S
 
 ---
 
-## Purpose
+## Start here
 
-This handbook teaches the thinking, skills and judgment needed to work effectively as an analytics or product data scientist. It is not a textbook. It is not a link dump. It is a structured, practical guide you can read, practise from and return to throughout your career.
+| Need | Open |
+|------|------|
+| I have an interview soon | [INTERVIEW_MODE.md](INTERVIEW_MODE.md) |
+| I need help with real work | [WORK_MODE.md](WORK_MODE.md) |
+| I am not sure where to start | [PROBLEM_INDEX.md](PROBLEM_INDEX.md) |
+| I need quick recall | [00_quick_reference/](00_quick_reference/) |
+| I want the full learning path | [ROADMAP.md](ROADMAP.md) |
 
 ---
 
-## Need an answer quickly?
+## Example: diagnosing a metric drop
 
-| If you need to... | Open this |
-|-------------------|-----------|
-| Prepare 30 minutes before an interview | [INTERVIEW_MODE.md](INTERVIEW_MODE.md) |
-| Solve a real work problem | [WORK_MODE.md](WORK_MODE.md) |
-| Navigate by problem, not topic | [PROBLEM_INDEX.md](PROBLEM_INDEX.md) |
-| Check a checklist before sharing analysis | [CHECKLISTS.md](CHECKLISTS.md) |
-| Look up a definition | [GLOSSARY.md](GLOSSARY.md) |
+If activation drops, do not jump straight to modelling.
+
+1. Check data freshness and whether tracking changed.
+2. Split by platform, country, acquisition channel and user type.
+3. Decompose: is it the numerator (fewer activations) or denominator (more signups)?
+4. Check product, marketing and seasonal changes that week.
+5. Form 2–3 specific hypotheses with mechanisms.
+6. Recommend one diagnostic query or product action per hypothesis.
+
+The full framework: [01_product_and_business_thinking/metric_change_diagnosis.md](01_product_and_business_thinking/metric_change_diagnosis.md)
+
+---
+
+## Purpose
+
+This handbook teaches the thinking, skills and judgment needed to work effectively as an analytics or product data scientist. It is not a textbook. It is not a link dump. It is a structured, practical guide you can read, practise from and return to throughout your career.
 
 ---
 

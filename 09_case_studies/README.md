@@ -24,9 +24,15 @@ The later case studies also draw on causal inference and communication.
 
 | Case | Product context | Key skills |
 |------|-----------------|-----------|
-| `activation_drop.md` | Sudden drop in activation rate | Metric diagnosis, segment analysis, SQL |
+| [activation_drop.md](activation_drop.md) | Sudden drop in activation rate | Metric diagnosis, data quality, SQL |
+| [checkout_ab_test.md](checkout_ab_test.md) | A/B test with SRM and guardrail failure | SRM, guardrails, result communication |
+| [onboarding_activation_ab_test.md](onboarding_activation_ab_test.md) | Full onboarding A/B test | End-to-end experiment, novelty check |
+
+### Planned additions
+
+| Case | Product context | Key skills |
+|------|-----------------|-----------|
 | `retention_decline.md` | Gradual decline in day-30 retention | Cohort analysis, root cause investigation |
-| `checkout_ab_test.md` | A/B test of a redesigned checkout | Experiment analysis, sample size, result communication |
 | `marketplace_liquidity.md` | Falling supply-side liquidity | Marketplace metrics, funnel analysis, causal framing |
 | `subscription_churn.md` | Rising churn in a subscription product | Churn diagnosis, ML framing, DiD setup |
 
@@ -60,9 +66,9 @@ The later case studies also draw on causal inference and communication.
 
 These cases mirror real analytics DS interview formats:
 
-- "A metric dropped 20%. How do you diagnose it?" → `activation_drop.md` or `retention_decline.md`
-- "Walk me through an A/B test analysis" → `checkout_ab_test.md`
-- "We are seeing rising churn. What would you do?" → `subscription_churn.md`
+- "A metric dropped 20%. How do you diagnose it?" → [activation_drop.md](activation_drop.md)
+- "Walk me through an A/B test analysis" → [checkout_ab_test.md](checkout_ab_test.md)
+- "Design and analyse an onboarding experiment" → [onboarding_activation_ab_test.md](onboarding_activation_ab_test.md)
 
 Practise answering without reading the solution first. The goal is not to memorise the walkthrough — it is to develop the habit of structured thinking on unfamiliar problems.
 
