@@ -72,6 +72,21 @@ If you only have two weeks, focus on these:
 
 ---
 
+## First practical path
+
+The fastest way to understand what analytics data scientists actually do. Follow this sequence for one real problem:
+
+| Step | Task | Where to learn it |
+|------|------|-------------------|
+| 1 | Define the product question and the metric | [01 · Product thinking](01_product_and_business_thinking/README.md) |
+| 2 | Write SQL to extract the data | [02 · SQL for analytics](02_sql_for_analytics/README.md) |
+| 3 | Check data quality before interpreting | [CHECKLISTS.md](CHECKLISTS.md) |
+| 4 | Apply the right statistical method | [03 · Statistics](03_statistics_and_experimentation/README.md) |
+| 5 | Write a clear recommendation | [08 · Communication](08_communication_and_decision_making/README.md) |
+| 6 | See it done end to end | [09 · Case studies](09_case_studies/README.md) |
+
+---
+
 ## Repository structure
 
 | Folder | What you will learn |
