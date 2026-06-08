@@ -10,13 +10,25 @@ This handbook teaches the thinking, skills and judgment needed to work effective
 
 ---
 
+## Need an answer quickly?
+
+| If you need to... | Open this |
+|-------------------|-----------|
+| Prepare 30 minutes before an interview | [INTERVIEW_MODE.md](INTERVIEW_MODE.md) |
+| Solve a real work problem | [WORK_MODE.md](WORK_MODE.md) |
+| Navigate by problem, not topic | [PROBLEM_INDEX.md](PROBLEM_INDEX.md) |
+| Check a checklist before sharing analysis | [CHECKLISTS.md](CHECKLISTS.md) |
+| Look up a definition | [GLOSSARY.md](GLOSSARY.md) |
+
+---
+
 ## Who this is for
 
 - Aspiring analytics or product data scientists
 - Data analysts moving into a more senior or science-focused role
 - Software engineers or BI analysts transitioning into data science
 - Anyone preparing for analytics DS interviews
-- Practitioners who want to sharpen their product intuition and statistical rigour
+- Practitioners who want to sharpen product intuition and statistical rigour
 
 ---
 
@@ -24,7 +36,7 @@ This handbook teaches the thinking, skills and judgment needed to work effective
 
 Analytics and product data scientists sit at the intersection of product, engineering and business. Their core job is to help organisations make better decisions using data.
 
-Day to day, this means:
+Day to day this means:
 
 - Translating product questions into measurable metrics
 - Designing and analysing experiments
@@ -33,7 +45,7 @@ Day to day, this means:
 - Communicating uncertainty and risk to stakeholders
 - Recommending what to build, change or stop
 
-The skills range from SQL and Python to statistics, causal inference and stakeholder communication. What separates excellent practitioners from average ones is **judgment**: knowing which question to answer, which method to use and how to communicate the answer clearly.
+What separates excellent practitioners from average ones is **judgment**: knowing which question to answer, which method to use, and how to communicate the answer clearly.
 
 ---
 
@@ -58,32 +70,32 @@ Do not try to read everything at once. For each topic: read the concept, study t
 
 ## Minimum viable path (2 weeks)
 
-If you only have two weeks, focus on these:
+If you only have two weeks:
 
 | Days | Topic |
 |------|-------|
-| 1–2 | Metrics, funnels, retention |
-| 3–4 | SQL joins and window functions |
-| 5–6 | Funnel and cohort SQL |
-| 7–8 | A/B testing basics |
-| 9–10 | Experiment readout template |
-| 11–12 | One full case study |
-| 13–14 | Five SQL questions + five product sense questions |
+| 1-2 | Metrics, funnels, retention |
+| 3-4 | SQL joins and window functions |
+| 5-6 | Funnel and cohort SQL |
+| 7-8 | A/B testing basics |
+| 9-10 | Experiment readout template |
+| 11-12 | One full case study |
+| 13-14 | Five SQL questions and five product sense questions |
 
 ---
 
 ## First practical path
 
-The fastest way to understand what analytics data scientists actually do. Follow this sequence for one real problem:
+The fastest way to understand how analytics data scientists actually work:
 
-| Step | Task | Where to learn it |
-|------|------|-------------------|
-| 1 | Define the product question and the metric | [01 · Product thinking](01_product_and_business_thinking/README.md) |
-| 2 | Write SQL to extract the data | [02 · SQL for analytics](02_sql_for_analytics/README.md) |
-| 3 | Check data quality before interpreting | [CHECKLISTS.md](CHECKLISTS.md) |
-| 4 | Apply the right statistical method | [03 · Statistics](03_statistics_and_experimentation/README.md) |
-| 5 | Write a clear recommendation | [08 · Communication](08_communication_and_decision_making/README.md) |
-| 6 | See it done end to end | [09 · Case studies](09_case_studies/README.md) |
+| Step | Task | Where |
+|------|------|-------|
+| 1 | Define the product question and metric | [01 Product thinking](01_product_and_business_thinking/README.md) |
+| 2 | Write SQL to extract the data | [02 SQL](02_sql_for_analytics/README.md) |
+| 3 | Check data quality | [CHECKLISTS.md](CHECKLISTS.md) |
+| 4 | Apply the right statistical method | [03 Statistics](03_statistics_and_experimentation/README.md) |
+| 5 | Write a clear recommendation | [08 Communication](08_communication_and_decision_making/README.md) |
+| 6 | See it done end to end | [09 Case studies](09_case_studies/README.md) |
 
 ---
 
@@ -91,6 +103,7 @@ The fastest way to understand what analytics data scientists actually do. Follow
 
 | Folder | What you will learn |
 |--------|---------------------|
+| [00_quick_reference](00_quick_reference/) | Cheatsheets and frameworks for interviews and real work |
 | [01_product_and_business_thinking](01_product_and_business_thinking/) | Metrics, funnels, retention, metric diagnosis |
 | [02_sql_for_analytics](02_sql_for_analytics/) | SQL patterns, joins, window functions, product queries |
 | [03_statistics_and_experimentation](03_statistics_and_experimentation/) | Hypothesis testing, A/B testing, power analysis |
@@ -106,6 +119,9 @@ Supporting files:
 
 | File | Purpose |
 |------|---------|
+| [INTERVIEW_MODE.md](INTERVIEW_MODE.md) | One-page interview reference for all question types |
+| [WORK_MODE.md](WORK_MODE.md) | Routing guide for real analytics work situations |
+| [PROBLEM_INDEX.md](PROBLEM_INDEX.md) | Navigate by situation, not by topic |
 | [ROADMAP.md](ROADMAP.md) | Learning paths for 2 weeks, 1 month and 3 months |
 | [CHECKLISTS.md](CHECKLISTS.md) | Before-you-start and before-you-share checklists |
 | [GLOSSARY.md](GLOSSARY.md) | Definitions of key terms |
@@ -115,13 +131,15 @@ Supporting files:
 
 ## How to use this repo
 
-**As a learning path:** Follow the start-here order. Read each folder README before diving into individual files.
+**Learning:** Follow the start-here order. Read each folder README before diving into individual files.
 
-**As a reference:** Use the glossary and checklists. Return to specific sections when you encounter a real problem at work.
+**Reference at work:** Open [WORK_MODE.md](WORK_MODE.md) or [PROBLEM_INDEX.md](PROBLEM_INDEX.md) to find the right file for your situation.
 
-**For interview prep:** Go straight to section 10, but work backwards through earlier sections to understand the reasoning, not just the answers.
+**Interview prep:** Open [INTERVIEW_MODE.md](INTERVIEW_MODE.md) for a full reference, or [00_quick_reference/interview_panic_sheet.md](00_quick_reference/interview_panic_sheet.md) for the 30-minute version.
 
-**For templates:** Sections 08 and the SQL files contain ready-to-use templates and queries.
+**Templates:** [00_quick_reference/communication_templates.md](00_quick_reference/communication_templates.md) has ready-to-use formats for readouts and decision memos.
+
+**SQL:** The `.sql` files in [02_sql_for_analytics/](02_sql_for_analytics/) are annotated templates you can adapt directly.
 
 ---
 
@@ -143,7 +161,7 @@ This handbook tries to teach all of these.
 
 ## Disclaimer
 
-This is an independent learning resource. It is not affiliated with or endorsed by any company. Examples are fictional and for educational purposes only.
+This is an independent learning resource, not affiliated with or endorsed by any company. Examples are fictional and for educational purposes only.
 
 ---
 
