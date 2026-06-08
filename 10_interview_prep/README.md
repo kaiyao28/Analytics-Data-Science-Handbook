@@ -19,6 +19,21 @@ This section gives you structured frameworks, question banks and worked examples
 
 ---
 
+## Open this if...
+
+| You need to... | Go to |
+|----------------|-------|
+| Interview in under 30 minutes | [../00_quick_reference/interview_panic_sheet.md](../00_quick_reference/interview_panic_sheet.md) |
+| Do a timed mock loop with self-scoring | [mock_interview_loops.md](mock_interview_loops.md) |
+| See what a gold standard answer looks like | [gold_standard_answers.md](gold_standard_answers.md) |
+| Practice SQL questions | [sql_questions.md](sql_questions.md) |
+| Practice product sense and metric questions | [product_sense_questions.md](product_sense_questions.md) |
+| Practice A/B testing questions | [ab_testing_questions.md](ab_testing_questions.md) |
+| Practice statistics questions | [statistics_questions.md](statistics_questions.md) |
+| Understand the case interview format | [case_interview_framework.md](case_interview_framework.md) |
+
+---
+
 ## Interview formats
 
 **SQL questions** — write or debug a query from a schema. Tests: joins, window functions, aggregations, deduplication, funnel and retention logic. See `sql_questions.md`.
@@ -110,8 +125,10 @@ Read `case_interview_framework.md`. Work through five SQL questions from `sql_qu
 
 | File | Topic |
 |------|-------|
-| `sql_questions.md` | 20 SQL questions with schemas and worked answers |
-| `product_sense_questions.md` | 15 product sense and metrics questions with frameworks |
-| `ab_testing_questions.md` | 15 experiment design and analysis questions |
-| `statistics_questions.md` | 20 statistics and probability questions |
+| `sql_questions.md` | SQL questions with schemas and worked answers |
+| `product_sense_questions.md` | Product sense and metrics questions with frameworks |
+| `ab_testing_questions.md` | Experiment design and analysis questions |
+| `statistics_questions.md` | Statistics and probability questions |
 | `case_interview_framework.md` | Step-by-step framework for metric change and open case questions |
+| `mock_interview_loops.md` | Four timed practice loops with self-scoring rubrics |
+| `gold_standard_answers.md` | Six annotated model answers with what makes them strong |

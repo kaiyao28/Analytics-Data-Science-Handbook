@@ -67,5 +67,20 @@ SRM threshold → flag if split deviates > 1pp from intended ratio
 
 ---
 
+---
+
+## Self-check (answer key below)
+
+1. An experiment ran for 14 days. You see p = 0.07. The team wants to run one more week. What do you say?
+2. The split is 49.1% / 50.9% instead of 50/50. Is this an SRM?
+3. Three secondary metrics are significant. The primary metric is not. Is this a win?
+
+**Answers:**
+1. No — extending after observing is peeking. Accept the null or run a new pre-registered test.
+2. Depends on sample size. Run a chi-squared test. A split of 491/509 in 1,000 users is not significant (p ≈ 0.31). The same ratio in 50,000 users (24,550/25,450) produces p < 0.001. The threshold is significance, not the raw percentage gap.
+3. No — this is a multiple comparisons problem. The primary metric is the ship criterion. Three significant secondary results from 10 tests is consistent with chance at alpha = 0.05.
+
+---
+
 *Full statistics: [../03_statistics_and_experimentation/README.md](../03_statistics_and_experimentation/README.md)*
 *SQL template: [../02_sql_for_analytics/experiment_analysis.sql](../02_sql_for_analytics/experiment_analysis.sql)*

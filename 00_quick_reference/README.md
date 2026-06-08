@@ -4,7 +4,7 @@ One-page references for interviews and real work. No long reading.
 
 ---
 
-## When to open which file
+## Open this if...
 
 | Situation | File |
 |-----------|------|

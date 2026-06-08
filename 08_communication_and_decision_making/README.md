@@ -19,6 +19,18 @@ This section covers writing, framing and presenting analytical work to stakehold
 
 ---
 
+## Open this if...
+
+| You need to... | Go to |
+|----------------|-------|
+| Write an experiment readout right now | [../00_quick_reference/communication_templates.md](../00_quick_reference/communication_templates.md) |
+| See a worked good vs weak write-up | [Practical example below](#practical-example) |
+| Write a decision memo | `decision_memo_template.md` |
+| Learn how to write a clear data insight | `insight_writing.md` |
+| Handle stakeholder pushback | `stakeholder_questions.md` |
+
+---
+
 ## Core concepts
 
 **Pyramid principle** — start with the conclusion, then support it with evidence. Technical people tend to write chronologically: here is what I did, here is what I found. Stakeholders prefer the inverse: here is what you should do, here is why. Lead with the answer.

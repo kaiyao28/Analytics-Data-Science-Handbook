@@ -21,6 +21,20 @@ This section teaches the statistical thinking behind A/B testing: not just how t
 
 ---
 
+## Open this if...
+
+| You need to... | Go to |
+|----------------|-------|
+| Understand the full A/B testing process | [ab_testing.md](ab_testing.md) |
+| Know what can go wrong in an experiment | [common_experiment_mistakes.md](common_experiment_mistakes.md) |
+| Calculate or explain sample size | [power_and_sample_size.md](power_and_sample_size.md) |
+| Explain p-values or confidence intervals | [hypothesis_testing.md](hypothesis_testing.md) |
+| Choose guardrail metrics | [guardrail_metrics.md](guardrail_metrics.md) |
+| Build conceptual intuition before the details | [statistical_thinking.md](statistical_thinking.md) |
+| Revise quickly for an interview | [../00_quick_reference/ab_testing_cheatsheet.md](../00_quick_reference/ab_testing_cheatsheet.md) |
+
+---
+
 ## Core concepts
 
 **Null hypothesis** — the assumption that there is no effect. The experiment tries to find evidence against it. Failing to reject the null does not prove the null is true; it means the data is consistent with it.
@@ -99,6 +113,17 @@ A/B testing is a core topic in every analytics DS interview. Expected knowledge:
 2. You get a result with p = 0.04. The product manager says "great, it worked — let's ship." What five questions do you ask before agreeing?
 3. An experiment shows p = 0.22. The PM wants to "run it a bit longer to see if it becomes significant." How do you respond?
 4. Write a one-paragraph explanation of p-values that a non-technical product manager would understand.
+
+---
+
+## Exercise answer rubric
+
+| Exercise | Key points your answer must include |
+|----------|-------------------------------------|
+| 1 | Baseline = 40%, MDE = 2pp (5% relative of 40%), alpha = 0.05, power = 0.80. Approx 4,200 per group. Duration = 4,200 / daily traffic per variant. |
+| 2 | (1) Was the primary metric pre-specified? (2) Is the effect ≥ MDE? (3) SRM check passed? (4) Guardrails stable? (5) No novelty effect (effect stable week 2+)? |
+| 3 | Extending after observing results is peeking — inflates the false positive rate. p = 0.22 at a pre-specified end date means accept the null, or run a new pre-registered test with a smaller MDE. Never extend to chase significance. |
+| 4 | Must include: (a) "if the change had no effect, this result would occur X% of the time by chance"; (b) must NOT say "97% probability the result is real"; (c) relate to alpha threshold and 1-in-20 false positive rate. |
 
 ---
 

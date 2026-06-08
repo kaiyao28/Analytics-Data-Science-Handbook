@@ -165,5 +165,24 @@ For any A/B testing question, hit these points in order:
 
 ---
 
+---
+
+## Self-score rubric
+
+After answering each question, score yourself 1–5 on these dimensions:
+
+| Dimension | 1 — Missing | 3 — Partial | 5 — Strong |
+|-----------|------------|------------|-----------|
+| Hypothesis has mechanism | No mechanism | Direction only | Mechanism stated clearly |
+| Sample size reasoning | Skipped | Inputs named | Inputs + duration calculated |
+| Guardrails addressed | Not mentioned | Named without mechanism | Named with mechanism |
+| Null result handled correctly | "It doesn't work" | "Inconclusive" | "Inconclusive — check power, then accept null or re-design" |
+| Pre-specification | Not mentioned | Mentioned in passing | Clearly explains why post-hoc metric choice is invalid |
+| SRM handling | Ignored | Flagged | Flagged + steps to investigate + hold analysis |
+
+**Target:** average ≥ 4 before interview day. For any dimension where you scored 1–2, re-read the corresponding section in [../03_statistics_and_experimentation/common_experiment_mistakes.md](../03_statistics_and_experimentation/common_experiment_mistakes.md).
+
+---
+
 *Cheatsheet: [../00_quick_reference/ab_testing_cheatsheet.md](../00_quick_reference/ab_testing_cheatsheet.md)*
 *Statistics foundation: [../03_statistics_and_experimentation/README.md](../03_statistics_and_experimentation/README.md)*
