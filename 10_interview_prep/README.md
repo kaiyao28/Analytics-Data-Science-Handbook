@@ -130,5 +130,6 @@ Read `case_interview_framework.md`. Work through five SQL questions from `sql_qu
 | `ab_testing_questions.md` | Experiment design and analysis questions |
 | `statistics_questions.md` | Statistics and probability questions |
 | `case_interview_framework.md` | Step-by-step framework for metric change and open case questions |
-| `mock_interview_loops.md` | Four timed practice loops with self-scoring rubrics |
-| `gold_standard_answers.md` | Six annotated model answers with what makes them strong |
+| [mock_interview_loops.md](mock_interview_loops.md) | Four timed practice loops with self-scoring rubrics |
+| [gold_standard_answers.md](gold_standard_answers.md) | Six annotated model answers with what makes them strong |
+| [behavioral_story_bank.md](behavioral_story_bank.md) | Eight behavioural story prompts with STAR structure and coaching notes |

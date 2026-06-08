@@ -109,6 +109,7 @@ The best answers separate fact from interpretation, quantify uncertainty and giv
 | [experiment_readout_template.md](experiment_readout_template.md) | Fill-in template for communicating experiment results, with worked example |
 | [decision_memo_template.md](decision_memo_template.md) | One-page format for framing a product decision |
 | [stakeholder_questions.md](stakeholder_questions.md) | How to handle the most common stakeholder pushback scenarios |
+| [senior_judgement.md](senior_judgement.md) | Judgment skills that separate senior from mid-level: challenging questions, pushback, uncertainty |
 
 ### Planned additions
 

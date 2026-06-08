@@ -139,8 +139,21 @@ Supporting files:
 | [PROBLEM_INDEX.md](PROBLEM_INDEX.md) | Navigate by situation, not by topic |
 | [ROADMAP.md](ROADMAP.md) | Learning paths for 2 weeks, 1 month and 3 months |
 | [CHECKLISTS.md](CHECKLISTS.md) | Before-you-start and before-you-share checklists |
+| [CAREER_LEVELS.md](CAREER_LEVELS.md) | Junior → senior → manager expectations and failure modes |
+| [MANAGER_MODE.md](MANAGER_MODE.md) | For managers coaching analytics teams |
+| [ANALYSIS_REVIEW_CHECKLIST.md](ANALYSIS_REVIEW_CHECKLIST.md) | 10-section checklist for reviewing any analysis |
 | [GLOSSARY.md](GLOSSARY.md) | Definitions of key terms |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute |
+
+---
+
+## Four ways to use this handbook
+
+| Mode | Use when | Start with |
+|------|----------|------------|
+| Quick reference | You need an answer fast | [00_quick_reference/](00_quick_reference/) |
+| Learning path | You are building foundations | [ROADMAP.md](ROADMAP.md) |
+| Interview practice | You are preparing for interviews | [INTERVIEW_MODE.md](INTERVIEW_MODE.md) |
+| Career growth | You want to move from junior to senior | [CAREER_LEVELS.md](CAREER_LEVELS.md) |
 
 ---
 
@@ -152,9 +165,9 @@ Supporting files:
 
 **Interview prep:** Open [INTERVIEW_MODE.md](INTERVIEW_MODE.md) for a full reference, or [00_quick_reference/interview_panic_sheet.md](00_quick_reference/interview_panic_sheet.md) for the 30-minute version.
 
-**Templates:** [00_quick_reference/communication_templates.md](00_quick_reference/communication_templates.md) has ready-to-use formats for readouts and decision memos.
+**Career growth:** Read [CAREER_LEVELS.md](CAREER_LEVELS.md) to understand what good looks like at your target level, then use [ANALYSIS_REVIEW_CHECKLIST.md](ANALYSIS_REVIEW_CHECKLIST.md) to audit your own work.
 
-**SQL:** The `.sql` files in [02_sql_for_analytics/](02_sql_for_analytics/) are annotated templates you can adapt directly.
+**Managing a team:** Open [MANAGER_MODE.md](MANAGER_MODE.md) for coaching and review frameworks.
 
 ---
 
